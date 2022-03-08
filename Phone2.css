@@ -1,0 +1,80 @@
+#bro{
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    height: 270px;
+}
+#home{
+    padding-inline: 15px;
+    margin-bottom: 5px;
+}
+.Paragraph{
+    font-size: 10px;
+}
+.h-primary{
+    font-size: 25px;
+}
+.btn{
+    margin: 2px;
+    padding: 1px;
+}
+.btn a{
+    padding: 2px;
+    font-size: 10px;
+}
+#Contact_Us{
+    padding-inline: 10px;
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding-inline: 4px;
+    font-size: 13px;
+}
+.h-second{
+    font-size: 18px;
+}
+
+#Form{
+    width: 200px;
+    margin:10px;
+    padding: 3px;
+}
+#Form form label input{
+    width: 100px;
+    margin:2px;
+}
+#hell{
+    flex-direction: column;
+}
+#Clients img{
+    width: 60px;
+    height: 60px;
+}
+#Clients{
+    flex-direction: column;
+}
+#logo{
+    margin-inline: 20px;
+}
+#footer_text{
+    padding-inline: 10px;
+}
+footer{
+    padding-inline: 10px;
+}
+/* Back grounds */
+#Contact_Us::before{
+    top: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    left: 0px;
+}
+.Client-Section::before{
+    top: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 45%;
+}
