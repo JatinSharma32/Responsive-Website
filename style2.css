@@ -7,7 +7,7 @@
 #navbar{
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0px;
     left: 0px;
 }
@@ -44,7 +44,7 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: .99;
+    opacity: .35;
 }
 #navbar ul li a:hover{
     color: black;
@@ -293,4 +293,7 @@ footer{
     margin: 5px;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
+}
+label{
+    z-index: -1;
 }
